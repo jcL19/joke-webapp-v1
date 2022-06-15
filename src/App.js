@@ -1,13 +1,14 @@
 import React from "react";
 import './App.css';
 import JokeCard from "./components/JokeCard";
-import Options from "./components/Options";
-
+import Filters from "./components/Filters";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Options />
+      <Header />
+      <Filters />
       <JokeCard />
     </div>
   );
